@@ -1,0 +1,29 @@
+/* Main Project Styling */
+
+/* @import "./sideNavigation"; */
+
+/* External or Web imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* Variable colour declarations */
+
+$sideNavigationColourPrimary: #283544;
+$sideNavigationColourSecondary: #232c3b;
+$sideNavigationColourTertiary: #1e2531;
+
+.sideNavigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 100vh;
+    width: 17.5rem;;
+
+    background-color: $sideNavigationColourPrimary;
+    
+    .navigationTileBlock {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
